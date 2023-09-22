@@ -3,7 +3,10 @@
 First, set up and connect MySQL Database:
 1) Install MySQL
 2) Using IntelliJ to connect to your database
-3) in connection.js line 2, please change this to your database username and password:
+3) create a schema (database name).
+4) create a member table with 3 columns: id, name, age
+5) add some value
+6) in connection.js line 2, please change this to your database username and password:
    
 let mysqlConnection = mysql.createConnection({
     host : "remotemysql.com",  
